@@ -8,8 +8,6 @@ This repository aims to investigate and troubleshoot issues related to DOCX file
 - **2x working.docx**: A sample DOCX file with two pages of content.
 - **3x working.docx**: A sample DOCX file with three pages of content.
 - **4x corrupted.docx**: A sample DOCX file with four pages of content, which is corrupted and cannot be opened.
-- **README.md**: This file.
-- **analysis**: Directory containing scripts and tools for analyzing DOCX files.
 
 ## Problem Description
 
