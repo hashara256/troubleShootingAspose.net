@@ -8,6 +8,9 @@ This repository aims to investigate and troubleshoot issues related to DOCX file
 - **2x working.docx**: A sample DOCX file with two pages of content.
 - **3x working.docx**: A sample DOCX file with three pages of content.
 - **4x corrupted.docx**: A sample DOCX file with four pages of content, which is corrupted and cannot be opened.
+- **README.md**: This file.
+- **originalDocxFiles**: Directory containing original DOCX files for analysis.
+- **[Content_Types].xml**: Content types definition for DOCX parts.
 
 ## Problem Description
 
@@ -33,25 +36,6 @@ The DOCX files generated using Aspose.NET work correctly for one, two, and three
    - Open the generated DOCX files in a DOCX reader such as Microsoft Word.
    - Observe that the document with four pages is corrupted and cannot be opened.
 
-## Analysis
-
-To identify the root cause of the corruption, follow these steps:
-
-1. **Extract XML Content**:
-   - Extract the XML files from the DOCX packages for 1, 2, 3, and 4 pages.
-2. **Compare Structures**:
-   - Analyze the XML structures of the working DOCX files (1, 2, and 3 pages) and the corrupted DOCX file (4 pages).
-3. **Identify Inconsistencies**:
-   - Look for missing elements, incorrect namespaces, and any discrepancies in the XML structures.
-4. **Tools Used**:
-   - Python scripts are provided in the `analysis` directory to automate the extraction and comparison of XML contents.
-
-## Scripts
-
-The `analysis` directory contains the following scripts:
-
-- **extract_xml.py**: Script to extract XML files from DOCX packages.
-- **compare_xml.py**: Script to compare XML structures and identify inconsistencies.
 
 ## Conclusion
 
