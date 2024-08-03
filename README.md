@@ -39,7 +39,7 @@ The DOCX files generated using Aspose.NET work correctly for one, two, and three
 
 ## Conclusion
 
-The goal is to pinpoint the exact cause of the corruption in the four-page DOCX file by comparing it against the working documents. By identifying inconsistencies or missing elements, we can propose a solution to fix the generation process in Aspose.NET.
+The goal is to pinpoint the exact cause of the corruption in the four-page DOCX file by comparing it against the working documents. By identifying inconsistencies or missing elements, we can propose a solution to fix the generation process in Aspose.NET. This can be done by diff of commits 1x to 4x. each commit is the unzipped docx of the resulting product. 
 
 ## Contribution
 
